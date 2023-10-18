@@ -135,27 +135,158 @@ a {
 
 
 
+
+
 .container {
-    display: flex;
-    justify-content: center;
+    text-align: center; /* Center align the text within the container */
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: inline-block; /* Make the menu items display in a horizontal line */
 }
 
 .navWords {
-    text-align: center;
-    
-    color: #111111;
-    font-size: 16px;
-    font-family: Montserrat;
-    font-weight: 400;
-    line-height: 22.40px;
-    letter-spacing: 0.16px;
-    word-wrap: break-word;
-    margin: 0 10px; /* Adjust the margin value to control the spacing */
+    display: inline; /* Display the navigation words inline */
+    margin: 0 10px; /* Add space on both sides of the navigation words */
+    font-family: "Montserrat";
 }
+
+.line {
+    display: inline; /* Display the pipe separator inline */
+    font-size: 20px;
+}
+
+
+#communityArt{
+   
+        font-size: 24px;
+        font-family: "Montserrat";
+        font-weight: 500;
+        color: rgba(17, 17, 17, 1);
+        width: 192px;
+        height: 40px;
+}
+
+div{
+    border: 1px solid #000000;
+}
+
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 84%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.paragraph {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.299);
+    
+    align-content: flex-end;
+}
+
+  
+.paragraph h3{
+    font-size: 30px;
+font-family: "Montserrat";
+font-weight: 600;
+color: rgba(17, 17, 17, 1);
+width: 398px;
+height: 46.09px;
+}
+
+.paragraph p{
+    font-size: 16px;
+font-family: "Montserrat";
+font-weight: 500;
+color: rgba(17, 17, 17, 1);
+width: 378px;
+height: 116px;
+}
+
+/* Style for the artist card container */
+.local_Art {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    overflow-x: auto; /* Add horizontal scroll */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+    width: 100%; /* Ensure the container takes up the available width */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    -webkit-overflow-scrolling: touch; /* Optional: smooth scrolling for iOS */
+}
+
+/* Style for each artist card */
+.artists {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block; /* Display the cards in a horizontal row */
+}
+
+/* Remove margin-right from the last card to avoid unnecessary spacing */
+.artists:last-child {
+    margin-right: 0;
+}
+  
+  /* Style for the artist image */
+  .artimg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  /* Style for the artist name */
+  .artistName {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Style for the label buttons */
+  .label {
+    background-color: #fafdff;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Style for social media icons */
+  .socialMedia {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .fa-brands {
+    margin: 0 5px;
+  }
+  
+
+  
