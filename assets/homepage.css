@@ -1,3 +1,6 @@
+*{
+    font-family: "Montserrat";
+}
 nav {
     color: #120b0b;
     /* Change to your desired text color */
@@ -277,6 +280,7 @@ height: 116px;
     font-size: 14px;
     cursor: pointer;
   }
+
   
   /* Style for social media icons */
   .socialMedia {
@@ -289,4 +293,144 @@ height: 116px;
   }
   
 
+
+nav li {
+    line-height: 28.80px; word-wrap: break-word;
+}
+  .artWork {
+
+        display: flex;
+        height: 50%;
+        
+        width: 100%;
+    }
+
+.default{
+    width:50%;
+
+    }
+
+.default img{
+    width:100%;
+}
+
+
+.fours{
+    width:50%;
+    display: flex;
+}
+
+
+.fourPic{
+    display: flex;
+}
+
+.fourPic{
+    width: 81%;
+    margin: 4px 2px 0px 7px;
+}
+
+.inside {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbarDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Updated background color for the navbar */
+    color: #fff; /* Updated text color for the navbar */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.navbar {
+    list-style: none; /* Remove the default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Display list items horizontally */
+}
+
+.navbar li {
+    margin-right: 20px;
+    color: #B7B7B7;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 28.80px;
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+}
+
+.seeAll {
+    /* Move the "See All" element to the right end */
+    margin-left: auto;
+    color: #000000;
+}
+.hamburger {
+    display: none; /* Initially hidden on larger screens */
+    cursor: pointer;
+  }
   
+  /* Hamburger bars */
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #161414;
+    margin: 4px 0;
+  }
+  
+  /* Responsive navigation menu */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block; /* Display the hamburger icon on smaller screens */
+    }
+  
+    /* Hide the regular navigation menu on smaller screens */
+    .menu {
+      display: none;
+    }
+  
+    /* Show the navigation menu when the hamburger is clicked */
+    .menu.active {
+      display: block;
+    }
+  }
+
+@media (max-width: 768px) {
+    .nav-container {
+      padding: 5px;
+    }
+    
+    .nav-container img {
+      width: 30px;
+      height: 30px;
+    }
+    
+    #everyArt {
+      font-size: 14px;
+      width: auto;
+    }
+    
+    .search-container {
+      margin: 0;
+    }
+    
+    .search-container img {
+      width: 20px;
+      height: 20px;
+    }
+    
+    .search-input {
+      width: 80%;
+    }
+    
+    .signUp,
+    .logIn {
+      width: 80px;
+      height: 24px;
+      font-size: 14px;
+    }
+  }
