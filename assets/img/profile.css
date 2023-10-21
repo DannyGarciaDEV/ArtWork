@@ -1,0 +1,160 @@
+*{
+    font-family: "Montserrat";
+}
+nav {
+    color: #120b0b;
+    /* Change to your desired text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line on small screens */
+}
+
+.nav-container {
+    background-color: #fbf7f7;
+    /* Change to your desired background color */
+    padding: 10px;
+}
+
+.nav-container {
+    background-color: #fbf7f7;
+    /* Change to your desired background color */
+    padding: 10px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    margin-right: 5px;
+    /* Reduce the margin between the logo and text */
+}
+
+#everyArt {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 77px;
+    height: 22px;
+}
+
+.search-container {
+    display: flex;
+    align-items: stretch;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px -337px;
+}
+
+.search-container img {
+    width: 30px;
+    /* Adjust the width of the search logo as needed */
+    height: 30px;
+    /* Adjust the height of the search logo as needed */
+    margin-right: 5px;
+    /* Reduce the margin between the search logo and input */
+}
+
+.search-input {
+    width: 277px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* Add a bottom line */
+}
+
+.user-img {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Add margin for spacing */
+}
+
+a {
+    color: #161414;
+    /* Change to your desired link text color */
+    text-decoration: none;
+}
+
+#everyArt {
+
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 77px;
+    height: 22px;
+
+}
+
+.signUp {
+    width: 105px;
+    height: 29px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #000000;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px #707070 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+
+.logIn {
+    width: 105px;
+    height: 29px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #FAFAFA;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px #707070 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+
+
+
+
+.container {
+    text-align: center; /* Center align the text within the container */
+}
+
+.menu {
+    display: inline-block; /* Make the menu items display in a horizontal line */
+}
+
+.navWords {
+    display: inline; /* Display the navigation words inline */
+    margin: 0 10px; /* Add space on both sides of the navigation words */
+    font-family: "Montserrat";
+}
+
+.line {
+    display: inline; /* Display the pipe separator inline */
+    font-size: 20px;
+}
