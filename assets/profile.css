@@ -1,5 +1,6 @@
 *{
     font-family: "Montserrat";
+   
 }
 nav {
     color: #120b0b;
@@ -100,6 +101,16 @@ a {
     height: 22px;
 
 }
+.userlog-container{
+
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .signUp {
     width: 105px;
@@ -158,3 +169,126 @@ a {
     display: inline; /* Display the pipe separator inline */
     font-size: 20px;
 }
+
+
+div{
+    border:1px solid black;
+}
+/* Profile about and pic */
+
+  /* Add flexbox for profile and about sections */
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 55%;
+  }
+
+  .profile-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 12px 30px rgba(17, 17, 17, 0.05);
+  }
+
+  .profile-text {
+    
+    text-align: center;
+  }
+
+  .profile-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #111111;
+  }
+
+  .profile-text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin-top: 8px;
+  }
+
+  .about {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111111;
+  }
+
+  .about p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+    margin-top: 8px;
+  }
+
+  .read-more {
+    text-decoration: none;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.60px;
+    letter-spacing: 0.14px;
+  }
+  .label {
+    background-color: #fafdff;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .main-content{display:flex;
+   
+    width: 123%;
+  
+
+  }
+
+  /* audio  */
+  .background {
+    background-image: url('https://cdn.britannica.com/41/3341-050-825E2B57/The-Creation-of-Adam-ceiling-fresco-Sistine.jpg');
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio-container {
+    background-color: rgba(255, 255, 255, 0.515);
+    padding: 20px;
+}
+
+
+.workerArt {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .workerArt img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+
+  .workerArt h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .workerArt p {
+    margin: 5px 0;
+  }
+  
