@@ -250,7 +250,7 @@ div{
 
   .main-content{display:flex;
    
-    width: 123%;
+    width: 100%;
   
 
   }
@@ -271,24 +271,53 @@ div{
 
 
 .workerArt {
-    display: flex;
-    margin: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: stretch;
   }
 
   .workerArt img {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    margin-right: 10px;
+    width: 100%;
+    height: 48%;
+   
   }
 
   .workerArt h2 {
-    font-size: 20px;
-    margin: 0;
+    color: black;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word
   }
 
-  .workerArt p {
-    margin: 5px 0;
+  .workerArt span {
+    color: #707070;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 19.60px;
+    letter-spacing: 0.14px;
+    word-wrap: break-word
+  }
+  .workerArt p{
+    color: #737373;
+font-size: 14px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 19.60px;
+letter-spacing: 0.14px;
+word-wrap: break-word
   }
   
+
+  .boxArt{
+    display: flex;
+    flex-direction: column;
+    width: 461px;
+    height: 387px;
+
+
+  }
