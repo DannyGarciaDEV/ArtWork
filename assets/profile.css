@@ -2,6 +2,19 @@
     font-family: "Montserrat";
    
 }
+.hamburger-menu {
+  display: none; /* Initially hide the menu */
+  /* Add your styling for the menu here */
+}
+
+/* Style the hamburger icon (You can adjust this based on your specific icon) */
+.hamburger-menu-icon {
+  /* Add your icon styling here */
+  cursor: pointer;
+  width:40px
+
+}
+
 nav {
     color: #120b0b;
     /* Change to your desired text color */
@@ -38,6 +51,13 @@ nav {
     /* Adjust the height as needed */
     margin-right: 5px;
     /* Reduce the margin between the logo and text */
+}
+.logo-containerMobile {
+  display: none
+}
+
+.logo-containerMobile img {
+display:none;
 }
 
 #everyArt {
@@ -175,81 +195,114 @@ div{
     border:1px solid black;
 }
 /* Profile about and pic */
+.main-content {
+  display: flex;
+}
 
-  /* Add flexbox for profile and about sections */
+/* Base styles for the profile section */
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(17, 17, 17, 0.05);
+}
+
+.profile-text {
+  margin-left: 20px;
+}
+
+.profile-text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.label {
+  background-color: #fafdff;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #111111;
+  margin-top: 8px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.60px;
+  letter-spacing: 0.14px;
+}
+
+/* Audio section styles */
+.audio-container {
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Stack profile and background sections vertically on smaller screens */
+  }
+
   .profile {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column; /* Stack profile content vertically on smaller screens */
+    align-items: center;
+    text-align: center;
   }
 
   .profile-image img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    box-shadow: 0 12px 30px rgba(17, 17, 17, 0.05);
+    width: 200px; /* Adjust image size for smaller screens */
+    height: 200px;
   }
-
-  
 
   .profile-text h1 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #111111;
-  }
-
-  .profile-text p {
-    font-size: 20px;
-    font-weight: 400;
-    color: #737373;
-    margin-top: 8px;
-  }
-
-  .about {
-    display: flex;
-    
-    flex-direction: column;
-    align-items: flex-start;
+    font-size: 28px; /* Adjust font size for smaller screens */
   }
 
   .about h2 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #111111;
+    font-size: 24px; /* Adjust font size for smaller screens */
   }
 
   .about p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #111111;
-    margin-top: 8px;
+    font-size: 14px; /* Adjust font size for smaller screens */
   }
 
-  .read-more {
-    text-decoration: none;
-    color: #707070;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 19.60px;
-    letter-spacing: 0.14px;
+  .audio-container {
+    margin-top: 10px;
   }
-  .label {
-    background-color: #fafdff;
-    color: #707070;
-    border: 1px solid #707070;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 5px 5px;
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  .main-content{display:flex;
-   
-    width: 100%;
-  
-
-  }
+}
 
   /* audio  */
   .background {
@@ -266,57 +319,56 @@ div{
 }
 
 
-.workerArt {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  }
 
-  .workerArt img {
-    width: 100%;
-    height: 48%;
-   
-  }
+ 
 
-  .workerArt h2 {
-    color: black;
-    font-size: 24px;
-    font-family: Montserrat;
-    font-weight: 600;
-    line-height: 40px;
-    word-wrap: break-word
-  }
-
-  .workerArt span {
-    color: #707070;
-    font-size: 14px;
-    font-family: Montserrat;
-    font-weight: 400;
-    text-decoration: underline;
-    line-height: 19.60px;
-    letter-spacing: 0.14px;
-    word-wrap: break-word
-  }
-  .workerArt p{
-    color: #737373;
-font-size: 14px;
-font-family: Montserrat;
-font-weight: 400;
-line-height: 19.60px;
-letter-spacing: 0.14px;
-word-wrap: break-word
-  }
   
+    /* Style for the workerArt container */
+    .workerArt {
+      display: flex;
+    justify-content: space-between;
+    margin: 34px;
+    }
 
-  .boxArt{
-    display: flex;
-    flex-direction: column;
-    width: 461px;
-    height: 387px;
+    /* Style for each card container using Flexbox */
+    .boxArt {
+      width: 680px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      margin-right: 30px;
+      position: relative;
+    }
 
+    /* Style for the worker image */
+    .boxArt img {
+      width: 100%;
+      
+    }
 
-  }
+    /* Style for the description text */
+    .description {
+      padding: 10px;
+    }
+
+    .description h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .description p, .description span {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    /* Style for the location icon */
+    .fa-solid.fa-location-dot::before {
+      content: "\2022";
+      margin-right: 5px;
+    }
+  
 
   .hamburger-menu {
     display: none;
@@ -327,8 +379,35 @@ word-wrap: break-word
   /* Navigation container initially visible on all screens */
   
   /* Add some styles to the navigation links */
+  .menuMobile {
+    list-style: none; /* Remove bullet points or default list styles */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+  }
+  
+  /* Style individual list items */
   .menuMobile li {
-    margin: 5px 0;
+    padding: 10px; /* Adjust the padding as needed */
+    border-bottom: 1px solid #ccc; /* Add a horizontal separator between items */
+  }
+  
+  /* Style the last list item to remove the separator */
+  .menuMobile li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Change text color, font, and create a minimalistic look */
+  .menuMobile li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #696565; /* Change text color */
+    font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: normal; /* Use normal font weight for a minimalistic look */
+  }
+  
+  /* Add hover effect for links */
+  .menuMobile li a:hover {
+    color: #000103; /* Change text color on hover */
   }
   
   /* Style the search input */
@@ -344,6 +423,9 @@ word-wrap: break-word
     /* Show the hamburger menu and hide the regular navigation */
     .hamburger-menu {
       display: block;
+    }
+    .container{
+      display:none;
     }
   
     .nav-container {
@@ -373,6 +455,27 @@ word-wrap: break-word
     width: 40px;
        
   }
+  .logo-containerMobile {
+    display: flex;
+    align-items: center;
+}
+
+.logo-containerMobile img{
+  display: flex;
+  width: 40px;
+  margin:10px;
+}
 
   }
 
+  @media screen and (max-width: 768px) {
+    .workerArt {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      margin:10px;
+    }
+  
+    .boxArt {
+      max-width: 100%; /* Allow boxes to take full width on smaller screens */
+      margin: 10px 0px 10px 0px
+    }
+  }

@@ -16,24 +16,26 @@
 <body>
   
   <header>
-    <div class="hamburger-menu">
-    
-        
-     <i  class="hamburger-menu fa-solid fa-bars" ></i>
-     <div class="search-containerMobile">
-      <img src="assets/img/search.png" alt="Search" />
-      <input class="search-input" type="text" placeholder="Search by artwork name, artists, events, etc." />
+    <div class="logo-containerMobile">
+      <i class="hamburger-menu-icon fa-solid fa-bars"></i>
+      <img src="./assets/img/logo.png" alt="Logo" />
+      <p id="everyArt">EveryART</p>
+      
     </div>
+    <div class="hamburger-menu">
+      
+      <div class="search-containerMobile">
+        <img src="assets/img/search.png" alt="Search" />
+        <input class="search-input" type="text" placeholder="Search by artwork name, artists, events, etc." />
+      </div>
       <ul class="menuMobile">
         <li><a href="#">Community Art</a></li>
         <li><a href="#">Artists</a></li>
         <li><a href="#">Art in the World</a></li>
         <li><a href="#">Art Events</a></li>
         <li><a href="#">Your Profile</a></li>
-       <li><button id="download" style="background-color: black; color: white; border-radius: 10px;">Download App</button> </li>
+        <li><button id="download" style="background-color: black; color: white; border-radius: 10px;">Download App</button></li>
       </ul>
-     
-  
     </div>
     <div class="nav-container">
       <nav>
@@ -63,53 +65,48 @@
       </nav>
     </div>
   </header>
-      <div class="main-content">
-        <div class="profile">
-          <div class="profile-image">
-            <img src="./assets/img/wong.png" alt="Profile Image">
-          </div>
-          <div class="profile-text">
-            <h1>Meilin Wong</h1>
-            <button class="label">Painting</button>
-            <button class="label">Boston</button>
-            <button class="label">Mural</button>
-            <div class="about">
-                <h2>About Me</h2>
-                <p>Meilin Wong is a contemporary artist based <br> in Philadelphia, Pennsylvania.  Born in Hong Kong, she immigrated <br>to the United States with her family at a young age.<br> Mei-Lin developed a passion for art from a young age and began creating art<br> in various mediums, including painting, sculpture, and photography.</p>
-                <a href="#" class="read-more">Read more</a>
-               
-              </div>
-              
-              
-          </div>
+  <div class="main-content">
+    <div class="profile">
+      <div class="profile-image">
+        <img src="./assets/img/wong.png" alt="Profile Image">
+      </div>
+      <div class="profile-text">
+        <h1>Meilin Wong</h1>
+        <button class="label">Painting</button>
+        <button class="label">Boston</button>
+        <button class="label">Mural</button>
+        <div class="about">
+          <h2>About Me</h2>
+          <p>Meilin Wong is a contemporary artist based in Philadelphia, Pennsylvania. Born in Hong Kong, she immigrated to the United States with her family at a young age. Mei-Lin developed a passion for art from a young age and began creating art in various mediums, including painting, sculpture, and photography.</p>
+          <a href="#" class="read-more">Read more</a>
         </div>
-        <div class="profile">
-            <div class="background">
-                <div class="audio-container">
-                    <audio controls>
-                        <source src="./assets/audio/song.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                </div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio section -->
+  <div class="audio-container">
+    <audio controls>
+      <source src="./assets/audio/song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
  <div>
   <h2> Meilin Wong</h2>
  </div>
  <div class="workerArt">
   <div class="boxArt">
-    <img src="https://s3-alpha-sig.figma.com/img/bf1d/70ab/27db9240488c9ce58ac16a67f2a38cad?Expires=1698624000&Signature=p2t7JZOAOwlbn4UjR0KEI7kH2e3frpkS1mFtrPoeuqO92tsTR1yRCUPUtBVUpIJj6d5fqawdWvBfXqRBCccl32yzfUqYKd5Y3xATC~sI8pWFwhq5s7PXsYNHNQpt~Rs~NsGBZgKx8Jm0ANq~fTRwFCZC719hSHzg8H8hO1FOLtY4v-QSK5qg-89n5OUSGHKZN3Wv5-7o9mykuEnyHAswrjOnKcxGVLvPwJ0pjfbxewISVzEJAWwAQ8LzPjRV86ptbP5tSS~GHbXDcbNLRJjOXBEmF9G8sYXTgbDYL~rUDRhJnO7kUKT3sdU8-QAcWLr7sKewoa2QfvTu~CGsl8QMXA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Worker Image">
+    <img src="https://via.placeholder.com/680x250" alt="Worker Image">
     <div class="description">
-      <h2>Welcome</h2>
+      <a href="/everything.html"><h2>Welcome</h2></a>
       <p><i class="fa-solid fa-location-dot"></i>14 Market Av. Left of Happy Beef</p>
       <p>This neighborhood wall in Boston now has a mural of the forest in northeastern Korea. It has...</p>
     </div>
   </div>
   <div class="boxArt">
-    <img src="https://s3-alpha-sig.figma.com/img/77b1/839d/c1343e7a7655107fa39991fbd96e65dc?Expires=1699228800&Signature=AC5IdD9UU2tXAZu-5T~Ep5s8QUVxAAkXbGvKeoPhw0n4kj~fozs3zGJb~b5QXty9Ka7JI0tBZqQ0SM-Mp2t8Nq3aopi8j2EURMIeNhRJAtZl9YBB7uWHnVxDdy143b38MsrMBDRV~WeYpUjhczIbQuUYTTKwBtaaVkxHxqQ832Qnf5GiaRhcFD5pDTjH3VrKe6H72ZneM-hSxWOVA28ul2gOeSH3UkrUkD92-za-S5p5Y0mAm8KuREgP6wiruYh9ql3Qk8QJLLA8-fH2VvCd~4v3UBIzgPMC8DJ3rfLeJpcM-5HpabQjbW~JEv64gbxsqAvCRJCJmkMc8-WWKHZJPA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Worker Image">
+    <img src="https://via.placeholder.com/680x250" alt="Worker Image">
     <div class="description">
-      <h2>Welcome</h2>
+      <a href="/everything.html"><h2>Welcome</h2></a>
       <p><i class="fa-solid fa-location-dot"></i>14 Market Av. Left of Happy Beef</p>
       <p>This neighborhood wall in Boston now has a mural of the forest in northeastern Korea. It has...</p>
     </div>
@@ -117,17 +114,17 @@
 </div>
 <div class="workerArt">
   <div class="boxArt">
-    <img src="https://s3-alpha-sig.figma.com/img/b552/b409/818d45289da3e673d3c51b37da0b0271?Expires=1699228800&Signature=cRX5D7CRPu3eFjTZjbi~DfI~2mOCRlzNQ9qgfBhIdu-k4MK1rlQ7-rgsOE~wCyvCgwzh1kdlBP~rR0UYRY-NxWrhhAiqHDzWMdRmalPkrxZjL4E7WSbFLcQ8Ljyb85TSF5X9Fa1xpRxVVo~3C7ABQMTEj5cjDUOb6TSlQH-k0i7b~GlcBtfeU4WqJlU8LOFi4izIaW~XSI2tmjsh0jCLotH8QEBfgGg50A433rLrYMHT-XomGvESwZkI1LI-W9thKffb9adOtYvjG6OuBAOW4XwvNJ29TX9OYg3nYG9iKfbZmQlr6ocCSmYZqGaVALIAlHbGH75NGTZH7UTJrFDU8A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Worker Image">
+    <img src="https://via.placeholder.com/680x250" alt="Worker Image">
     <div class="description">
-      <h2>Welcome</h2>
+      <a href="/everything.html"><h2>Welcome</h2></a>
       <p><i class="fa-solid fa-location-dot"></i>14 Market Av. Left of Happy Beef</p>
       <p>This neighborhood wall in Boston now has a mural of the forest in northeastern Korea. It has...</p>
     </div>
   </div>
   <div class="boxArt">
-    <img src="https://s3-alpha-sig.figma.com/img/bf1d/70ab/27db9240488c9ce58ac16a67f2a38cad?Expires=1698624000&Signature=p2t7JZOAOwlbn4UjR0KEI7kH2e3frpkS1mFtrPoeuqO92tsTR1yRCUPUtBVUpIJj6d5fqawdWvBfXqRBCccl32yzfUqYKd5Y3xATC~sI8pWFwhq5s7PXsYNHNQpt~Rs~NsGBZgKx8Jm0ANq~fTRwFCZC719hSHzg8H8hO1FOLtY4v-QSK5qg-89n5OUSGHKZN3Wv5-7o9mykuEnyHAswrjOnKcxGVLvPwJ0pjfbxewISVzEJAWwAQ8LzPjRV86ptbP5tSS~GHbXDcbNLRJjOXBEmF9G8sYXTgbDYL~rUDRhJnO7kUKT3sdU8-QAcWLr7sKewoa2QfvTu~CGsl8QMXA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Worker Image">
+    <img src="https://via.placeholder.com/680x250" alt="Worker Image">
     <div class="description">
-      <h2>Welcome</h2>
+      <a href="/everything.html"><h2>Welcome</h2></a>
       <span><i class="fa-solid fa-location-dot"></i>14 Market Av. Left of Happy Beef</span>
       <p>This neighborhood wall in Boston now has a mural of the forest in northeastern Korea. It has...</p>
     </div>
@@ -135,6 +132,17 @@
 </div>
 <script src="./js/profile.js" type="text/javascript"></script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Initially hide the hamburger menu
+  $(".hamburger-menu").hide();
+
+  // When the hamburger icon is clicked, toggle the visibility of the menu
+  $(".hamburger-menu-icon").click(function() {
+    $(".hamburger-menu").toggle();
+  });
+});
+</script>
 </body>
 </html>
-/

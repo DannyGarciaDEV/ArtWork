@@ -1,0 +1,100 @@
+*{
+    border: 1px solid black;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+  }
+  
+  .label {
+    background-color: #fafdff;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .artists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .artists img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+  }
+  
+  .artists span {
+    margin: 10px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .intro img {
+      max-height: 300px;
+    }
+  
+    .label {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .artists img {
+      max-height: 100px;
+    }
+  
+    .artists span {
+      margin: 5px;
+    }
+  }
+/* Styles for the art cards section */
+.art-cards {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+  }
+
+
+  /* Styles for the art cards */
+  .art-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    min-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .art-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styles for h2 and h3 in art cards */
+  .art-card h2, .art-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Styles for p in art cards */
+  .art-card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
