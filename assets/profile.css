@@ -181,9 +181,6 @@ div{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    align-content: center;
-    flex-wrap: nowrap;
-    width: 55%;
   }
 
   .profile-image img {
@@ -193,10 +190,7 @@ div{
     box-shadow: 0 12px 30px rgba(17, 17, 17, 0.05);
   }
 
-  .profile-text {
-    
-    text-align: center;
-  }
+  
 
   .profile-text h1 {
     font-size: 36px;
@@ -212,8 +206,10 @@ div{
   }
 
   .about {
-    margin-top: 20px;
-    text-align: center;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .about h2 {
@@ -321,3 +317,62 @@ word-wrap: break-word
 
 
   }
+
+  .hamburger-menu {
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Navigation container initially visible on all screens */
+  
+  /* Add some styles to the navigation links */
+  .menuMobile li {
+    margin: 5px 0;
+  }
+  
+  /* Style the search input */
+  .search-containerMobile {
+    display: none;
+    padding: 10px;
+    /* Customize background color */
+    color: #fff; /* Customize text color */
+  }
+  
+  /* Define the media query for screens with a maximum width of 768px */
+  @media screen and (max-width: 981px) {
+    /* Show the hamburger menu and hide the regular navigation */
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .nav-container {
+      display: none;
+    }
+  
+    /* Show the mobile search container */
+    .search-containerMobile {
+      display: flex;
+    }
+    .search-containerMobile img {
+      display: block;
+      width: 30px;
+    }
+    .menu li{
+      display: none;
+    }
+
+
+  .userlog-containerMobile{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .user-imgMobile{
+    width: 40px;
+       
+  }
+
+  }
+
