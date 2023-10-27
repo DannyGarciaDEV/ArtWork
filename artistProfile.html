@@ -129,7 +129,15 @@
       <p>This neighborhood wall in Boston now has a mural of the forest in northeastern Korea. It has...</p>
     </div>
   </div>
+
 </div>
+<script>
+  fetch('./footer.html')
+    .then((response) => response.text())
+    .then((footerContent) => {
+      document.body.innerHTML += footerContent;
+    });
+</script>
 <script src="./js/profile.js" type="text/javascript"></script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

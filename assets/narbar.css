@@ -1,0 +1,486 @@
+*{
+    font-family: "Montserrat";
+    
+   
+}
+.hamburger-menu {
+  display: none; /* Initially hide the menu */
+  /* Add your styling for the menu here */
+}
+
+/* Style the hamburger icon (You can adjust this based on your specific icon) */
+.hamburger-menu-icon {
+  /* Add your icon styling here */
+  cursor: pointer;
+  width:40px
+
+}
+
+nav {
+    color: #120b0b;
+    /* Change to your desired text color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line on small screens */
+}
+
+.nav-container {
+    background-color: #fbf7f7;
+    /* Change to your desired background color */
+    padding: 10px;
+}
+
+.nav-container {
+    background-color: #fbf7f7;
+    /* Change to your desired background color */
+    padding: 10px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 14%;
+
+}
+
+.logo-container img {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Adjust the height as needed */
+   
+    /* Reduce the margin between the logo and text */
+}
+.logo-containerMobile {
+  display: none
+}
+
+.logo-containerMobile img {
+display:none;
+}
+
+#everyArt {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 77px;
+    height: 22px;
+}
+
+.search-container {
+    display: flex;
+    align-items: stretch;
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px -337px;
+}
+
+.search-container img {
+    width: 30px;
+    /* Adjust the width of the search logo as needed */
+    height: 30px;
+    /* Adjust the height of the search logo as needed */
+    margin-right: 5px;
+    /* Reduce the margin between the search logo and input */
+}
+#location{
+    width:20px;
+    height: 20px;
+}
+
+#img-center{
+    color: #161414;
+    text-decoration: none;
+    margin: 13px 10px 10px 10px;
+}
+.search-input {
+    width: 277px;
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* Add a bottom line */
+}
+
+.user-img {
+    width: 40px;
+    /* Adjust the width as needed */
+    height: 40px;
+    /* Adjust the height as needed */
+    margin-right: 10px;
+    /* Add margin for spacing */
+}
+
+a {
+    color: #161414;
+    /* Change to your desired link text color */
+    text-decoration: none;
+}
+
+#everyArt {
+
+    font-size: 27px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    width: 77px;
+    height: 22px;
+
+}
+.userlog-container{
+
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signUp {
+    width: 105px;
+    height: 29px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #000000;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px #707070 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+
+.logIn {
+    width: 105px;
+    height: 29px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #FAFAFA;
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px #707070 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+
+.navWords {
+    display: inline;
+    margin: 10px 12px;
+    font-family: "Montserrat";
+    
+}
+.navWords:hover{
+    border-bottom: 1px solid black;
+}
+
+.line {
+    display: inline; /* Display the pipe separator inline */
+    font-size: 20px;
+}
+
+
+div{
+    border:1px solid black;
+}
+/* Profile about and pic */
+.main-content {
+  display: flex;
+}
+
+/* Base styles for the profile section */
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.profile-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(17, 17, 17, 0.05);
+}
+
+.profile-text {
+  margin-left: 20px;
+}
+
+.profile-text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.label {
+  background-color: #fafdff;
+  color: #707070;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111111;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #111111;
+  margin-top: 8px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.60px;
+  letter-spacing: 0.14px;
+}
+
+/* Audio section styles */
+.audio-container {
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Stack profile and background sections vertically on smaller screens */
+  }
+
+  .profile {
+    flex-direction: column; /* Stack profile content vertically on smaller screens */
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image img {
+    width: 200px; /* Adjust image size for smaller screens */
+    height: 200px;
+  }
+
+  .profile-text h1 {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+
+  .about h2 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .about p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .audio-container {
+    margin-top: 10px;
+  }
+}
+
+  /* audio  */
+  .background {
+    background-image: url('https://cdn.britannica.com/41/3341-050-825E2B57/The-Creation-of-Adam-ceiling-fresco-Sistine.jpg');
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio-container {
+    background-color: rgba(255, 255, 255, 0.515);
+    padding: 20px;
+}
+
+
+
+ 
+
+  
+    /* Style for the workerArt container */
+    .workerArt {
+      display: flex;
+    justify-content: space-between;
+    margin: 34px;
+    }
+
+    /* Style for each card container using Flexbox */
+    .boxArt {
+      width: 680px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      margin-right: 30px;
+      position: relative;
+    }
+
+    /* Style for the worker image */
+    .boxArt img {
+      width: 100%;
+      
+    }
+
+    /* Style for the description text */
+    .description {
+      padding: 10px;
+    }
+
+    .description h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .description p, .description span {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    /* Style for the location icon */
+    .fa-solid.fa-location-dot::before {
+      content: "\2022";
+      margin-right: 5px;
+    }
+  
+
+  .hamburger-menu {
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Navigation container initially visible on all screens */
+  
+  /* Add some styles to the navigation links */
+  .menuMobile {
+    list-style: none; /* Remove bullet points or default list styles */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+  }
+  
+  /* Style individual list items */
+  .menuMobile li {
+    padding: 10px; /* Adjust the padding as needed */
+    border-bottom: 1px solid #ccc; /* Add a horizontal separator between items */
+  }
+  
+  /* Style the last list item to remove the separator */
+  .menuMobile li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Change text color, font, and create a minimalistic look */
+  .menuMobile li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #696565; /* Change text color */
+    font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: normal; /* Use normal font weight for a minimalistic look */
+  }
+  
+  /* Add hover effect for links */
+  .menuMobile li a:hover {
+    color: #000103; /* Change text color on hover */
+  }
+  
+  /* Style the search input */
+  .search-containerMobile {
+    display: none;
+    padding: 10px;
+    /* Customize background color */
+    color: #fff; /* Customize text color */
+  }
+  
+  /* Define the media query for screens with a maximum width of 768px */
+  @media screen and (max-width: 981px) {
+    /* Show the hamburger menu and hide the regular navigation */
+    .hamburger-menu {
+      display: block;
+    }
+    .container{
+      display:none;
+    }
+  
+    .nav-container {
+      display: none;
+    }
+  
+    /* Show the mobile search container */
+    .search-containerMobile {
+      display: flex;
+    }
+    .search-containerMobile img {
+      display: block;
+      width: 30px;
+    }
+    .menu li{
+      display: none;
+    }
+
+
+  .userlog-containerMobile{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .user-imgMobile{
+    width: 40px;
+       
+  }
+  .logo-containerMobile {
+    display: flex;
+    align-items: center;
+}
+
+.logo-containerMobile img{
+  display: flex;
+  width: 40px;
+  margin:10px;
+}
+
+  }
+
+  
