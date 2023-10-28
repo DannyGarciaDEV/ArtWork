@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/narbar.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+   
+        <div class="logo-containerMobile">
+          <i class="hamburger-menu-icon fa-solid fa-bars"></i>
+          <img src="./assets/img/logo.png" alt="Logo" />
+          <p id="everyArt">EveryART</p>
+          
+        </div>
+        <div class="hamburger-menu">
+          
+          <div class="search-containerMobile">
+            <img src="assets/img/search.png" alt="Search" />
+            <input class="search-input" type="text" placeholder="Community Art" />
+          </div>
+          <ul class="menuMobile">
+            <li><a href="#">Community Art</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Art in the World</a></li>
+            <li><a href="#">Art Events</a></li>
+            <li><a href="#">Your Profile</a></li>
+            <li><button id="download" style="background-color: black; color: white; border-radius: 10px;">Download App</button></li>
+          </ul>
+        </div>
+        <div class="nav-container">
+          <nav>
+            <div class="logo-container">
+              <img src="assets/img/logo.png" alt="Logo" />
+              <p id="everyArt">EveryART</p>
+            </div>
+            <div class="search-container">
+              <img src="assets/img/search.png" alt="Search" />
+              <input class="search-input" type="text" placeholder="Community Art" />
+            </div>
+            <div class="userlog-container">
+                
+                <a id="img-center"> <img id="location" src="./assets/img/location.png"> Boston, MA </a>
+              <img class="user-img" src="./assets/img/reddix.png">
+             
+            </div>
+          </nav>
+        </div>
+        <div class="container">
+          <nav class="menu">
+            <p class="navWords">Artists</p>
+            <p class="navWords">Community Art</p>
+           
+            <p class="navWords">World Art</p>
+           
+            <p class="navWords">Art Events</p>
+          </nav>
+        </div>
+      </header>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+      // Initially hide the hamburger menu
+      $(".hamburger-menu").hide();
+    
+      // When the hamburger icon is clicked, toggle the visibility of the menu
+      $(".hamburger-menu-icon").click(function() {
+        $(".hamburger-menu").toggle();
+      });
+    });
+    </script>
+</html>
