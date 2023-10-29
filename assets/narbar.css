@@ -27,13 +27,13 @@ nav {
 }
 
 .nav-container {
-    background-color: #fbf7f7;
+    background-color: #ffffff;
     /* Change to your desired background color */
     padding: 10px;
 }
 
 .nav-container {
-    background-color: #fbf7f7;
+    background-color: #ffffff;
     /* Change to your desired background color */
     padding: 10px;
 }
@@ -250,133 +250,8 @@ div{
   cursor: pointer;
 }
 
-.about {
-  margin-top: 20px;
-}
-
-.about h2 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #111111;
-}
-
-.about p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #111111;
-  margin-top: 8px;
-}
-
-.read-more {
-  text-decoration: none;
-  color: #707070;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 19.60px;
-  letter-spacing: 0.14px;
-}
-
-/* Audio section styles */
-.audio-container {
-  margin-top: 20px;
-}
-
-audio {
-  width: 100%;
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .main-content {
-    flex-direction: column; /* Stack profile and background sections vertically on smaller screens */
-  }
-
-  .profile {
-    flex-direction: column; /* Stack profile content vertically on smaller screens */
-    align-items: center;
-    text-align: center;
-  }
-
-  .profile-image img {
-    width: 200px; /* Adjust image size for smaller screens */
-    height: 200px;
-  }
-
-  .profile-text h1 {
-    font-size: 28px; /* Adjust font size for smaller screens */
-  }
-
-  .about h2 {
-    font-size: 24px; /* Adjust font size for smaller screens */
-  }
-
-  .about p {
-    font-size: 14px; /* Adjust font size for smaller screens */
-  }
-
-  .audio-container {
-    margin-top: 10px;
-  }
-}
-
-  /* audio  */
-  .background {
-    background-image: url('https://cdn.britannica.com/41/3341-050-825E2B57/The-Creation-of-Adam-ceiling-fresco-Sistine.jpg');
-    background-size: cover;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.audio-container {
-    background-color: rgba(255, 255, 255, 0.515);
-    padding: 20px;
-}
 
 
-
- 
-
-  
-    /* Style for the workerArt container */
-    .workerArt {
-      display: flex;
-    justify-content: space-between;
-    margin: 34px;
-    }
-
-    /* Style for each card container using Flexbox */
-    .boxArt {
-      width: 680px;
-      display: flex;
-      flex-direction: column;
-      background-color: white;
-      
-      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-      margin-right: 30px;
-      position: relative;
-    }
-
-    /* Style for the worker image */
-    .boxArt img {
-      width: 100%;
-      
-    }
-
-    /* Style for the description text */
-    .description {
-      padding: 10px;
-    }
-
-    .description h2 {
-      font-size: 18px;
-      margin: 10px 0;
-    }
-
-    .description p, .description span {
-      font-size: 14px;
-      margin: 5px 0;
-    }
 
     /* Style for the location icon */
     .fa-solid.fa-location-dot::before {
@@ -458,7 +333,13 @@ audio {
     .menu li{
       display: none;
     }
-
+    #everyArt {
+        font-size: 19px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        width: 77px;
+        height: 22px;}
 
   .userlog-containerMobile{
     display: flex;
@@ -473,12 +354,17 @@ audio {
   .logo-containerMobile {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo-containerMobile img{
   display: flex;
-  width: 40px;
+  width: 38px;
   margin:10px;
+}
+
+.userMobile{
+    display: flex;
 }
 
   }
