@@ -6,3 +6,4 @@
 <li>Find and connect with local artists</li>
 <li>Find Local art / related events</li>
 <li>??Build a list, potentially make a tour??</li>
+<li>??Build a list, potentially make a tour??</li>
